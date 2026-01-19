@@ -1,6 +1,7 @@
 {
-  "name": "astro-event",
+  "name": "e-vent",
   "type": "module",
+  "author": "Tim Green",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
