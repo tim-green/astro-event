@@ -1,0 +1,116 @@
+
+hero:
+  tagline: "Welcome to"
+  title: "Neon Circuit Festival"
+  description: >
+    A cyberpunk EDM takeover in the heart of the city — glowing streets, pulsing bass,
+    and a skyline wired with sound. Come for the drops, stay for the after-midnight rush.
+  weekday: "Saturday"
+  dateDisplay: "21·06·2026"
+  location: "Austin • Texas"
+
+story:
+  chapterLabel: "Chapter One"
+  heading: "Into the Circuit"
+  body: |
+    Born from underground sound systems and neon-lit streets, Neon Circuit Festival exists
+    to unite humans and machines through rhythm.
+    This is a night of digital rebellion, synthetic light, and bass that never sleeps.
+  imageAsset: "event-gallery/Friends-in-cyberpunk-festival-unsplash.jpg"
+  imageAlt: "Cyberpunk festival crowd"
+  highlights:
+    - "🟣 Underground electronic culture"
+    - "🌐 Artists from the digital frontier"
+    - "⚡ Lights synced to the bass"
+
+schedule:
+  eyebrow: "System Boot"
+  title: "Festival Runtime"
+  description: >
+    Track the signal from startup to shutdown — every beat logged in the system.
+  events:
+  - number: "01"
+    label: "Boot"
+    title: "System Startup"
+    description: >
+      The gates unlock and the network goes live with deep synth and low-frequency pulses.
+    details:
+    - "Access granted at 3:40 PM"
+    - "Warm-up synthwave sets"
+    - "Transport shuttles online at 3:15 PM"
+  - number: "02"
+    label: "Signal"
+    title: "Neon Transmission"
+    description: >
+      Uplifting cyber house and electro run as the sky shifts to electric purple.
+    details:
+    - "Golden hour light shows"
+    - "Signature drink: Plasma Paloma"
+    - "Street food nodes active across the grid"
+  - number: "03"
+    label: "Core"
+    title: "Mainframe Drops"
+    description: >
+      Headliners connect directly to the mainframe with massive bass and laser code.
+    details:
+    - "Main stage online at 6:25 PM"
+    - "Prime-time sets after dark"
+    - "Laser & hologram effects synced live"
+  - number: "04"
+    label: "Overdrive"
+    title: "Midnight Protocol"
+    description: >
+      Harder sounds and darker visuals take control as the system enters overdrive.
+    details:
+    - "Overdrive mode from 8:50 PM"
+    - "Neon dessert & coffee station at 9:30 PM"
+    - "Glow capture booth until 11:30 PM"
+  - number: "05"
+    label: "Shutdown"
+    title: "Final Sequence"
+    description: >
+      End the night with one last surge of sound and light before the system powers down.
+    details:
+    - "Neon sticks issued at the gate"
+    - "Final track at 11:55 PM"
+    - "Last transport departs at 12:30 AM"
+
+gallery:
+  eyebrow: "Data Feed"
+  title: "Captured Signals"
+  description: >
+    A visual archive of the night — from the first pulse to the final glow.
+  images:
+    - asset: "event-gallery/Neon-lit-crowd-entering-venue-unsplash.jpg"
+      alt: "Neon-lit crowd entering venue"
+    - asset: "event-gallery/Laser-grid-over-main-stage-unsplash"
+      alt: "Laser grid over main stage"
+    - asset: "event-gallery/Dancers-under-green-lights-unsplash.jpg"
+      alt: "Dancers under green lights"
+    - asset: "event-gallery/cyberpunk-stage-unsplash.jpg"
+      alt: "cyberpunk"
+    - asset: "event-gallery/Crowd-with-neon-sticks-unsplash.jpg"
+      alt: "Crowd with neon sticks"
+    - asset: "event-gallery/friends-glowing-neon.jpg"
+      alt: "Friends glowing in neon"
+    - asset: "event-gallery/final-hologram-show.jpg"
+      alt: "Final hologram light show"
+    
+
+cards:
+  - imageAlt: "Tickets"
+    title: "Access Pass"
+    description: "Unlock your entry into Neon Circuit."
+    href: "/tickets"
+  - imageAlt: "Lineup"
+    title: "Artist Protocol"
+    description: "View the DJs connected to the system."
+    href: "/lineup"
+
+countdown:
+  label: "System Countdown"
+  heading: "Countdown to Activation"
+  message: >
+    Each cycle brings us closer to launch. Prepare for sound, light, and digital chaos.
+  target: "2026-06-21T21:00:00Z"
+  location: "Austin • Texas"
