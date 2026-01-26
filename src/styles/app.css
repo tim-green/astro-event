@@ -2,3 +2,16 @@
 @import "tailwindcss";
 @import "@fontsource-variable/archivo-narrow";
 @import "@fontsource/bungee";
+/* Colour Palette for the theme */
+:root {
+    color-scheme: light;
+    background-color: var(--color-background);
+
+    /* Main */
+    --color-primary: #141414;
+    --color-secondary: #f1eada;
+    --color-accent: #d5d5d5;
+    --color-background: #df4359;
+    --color-text-dark: #0a0a0a;
+    --color-text-light: #f1eada;
+}
