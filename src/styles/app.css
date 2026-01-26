@@ -2,6 +2,15 @@
 @import "tailwindcss";
 @import "@fontsource-variable/archivo-narrow";
 @import "@fontsource/bungee";
+
+@theme {
+    --font-sans: 'Archivo Narrow Variable', sans-serif;
+    --font-display: "Bungee", system-ui;
+    --section-padding: clamp(2rem, 7vw, 6rem);
+    --section-max-width: 1000px;
+    --shadow-card: 0 12px 35px rgba(0, 0, 0, 0.08);
+}
+
 /* Colour Palette for the theme */
 :root {
     color-scheme: light;
