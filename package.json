@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@fontsource-variable/archivo-narrow": "^5.2.8",
+    "@fontsource/bungee": "^5.2.7",
     "@tailwindcss/vite": "^4.1.18",
     "astro": "^5.16.11",
     "gsap": "^3.14.2",
