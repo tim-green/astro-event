@@ -1,7 +1,7 @@
 
 @import "tailwindcss";
-@import "@fontsource-variable/archivo-narrow";
-@import "@fontsource/bungee";
+@import "@fontsource-variable/archivo-narrow/index.css";
+@import "@fontsource/bungee/index.css";
 
 @theme {
     --font-sans: 'Archivo Narrow Variable', sans-serif;
