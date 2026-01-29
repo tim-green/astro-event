@@ -8,7 +8,7 @@ const eventHeading = countdown.heading;
 const eventMessage = countdown.message;
 const eventLocation = countdown.location;
 ---
-
+<!-- // Countdown Section -->
 <section
     class="py-24 px-6"
     style="
@@ -28,7 +28,7 @@ const eventLocation = countdown.location;
 
         <h2
             class="font-display text-[clamp(2.5rem,6vw,4.5rem)] uppercase leading-tight"
-            style="color: var(--color-primary);"
+            style="color: var(--color-heading-light);"
         >
             {eventHeading}
         </h2>
@@ -48,13 +48,14 @@ const eventLocation = countdown.location;
             <div
                 class="rounded-3xl border px-6 py-8"
                 style="
+                
                     border-color: var(--color-accent);
-                    background: color-mix(in srgb, var(--color-background) 60%, transparent);
+                    background: var(--color-lime-background);
                 "
             >
                 <p
                     class="text-sm uppercase tracking-[0.35em]"
-                    style="color: var(--color-accent);"
+                    style="color: var(--color-text-black);"
                 >
                     Days
                 </p>
@@ -70,12 +71,12 @@ const eventLocation = countdown.location;
                 class="rounded-3xl border px-6 py-8"
                 style="
                     border-color: var(--color-accent);
-                    background: color-mix(in srgb, var(--color-background) 60%, transparent);
+                    background: var(--color-lime-background);
                 "
             >
                 <p
                     class="text-sm uppercase tracking-[0.35em]"
-                    style="color: var(--color-accent);"
+                    style="color: var(--color-text-black);"
                 >
                     Hours
                 </p>
@@ -91,12 +92,12 @@ const eventLocation = countdown.location;
                 class="rounded-3xl border px-6 py-8"
                 style="
                     border-color: var(--color-accent);
-                    background: color-mix(in srgb, var(--color-background) 60%, transparent);
+                    background: var(--color-lime-background);
                 "
             >
                 <p
                     class="text-sm uppercase tracking-[0.35em]"
-                    style="color: var(--color-accent);"
+                    style="color: var(--color-text-black);"
                 >
                     Minutes
                 </p>
@@ -112,12 +113,12 @@ const eventLocation = countdown.location;
                 class="rounded-3xl border px-6 py-8"
                 style="
                     border-color: var(--color-accent);
-                    background: color-mix(in srgb, var(--color-background) 60%, transparent);
+                    background: var(--color-lime-background);
                 "
             >
                 <p
                     class="text-sm uppercase tracking-[0.35em]"
-                    style="color: var(--color-accent);"
+                    style="color: var(--color-text-black);"
                 >
                     Seconds
                 </p>
