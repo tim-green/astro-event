@@ -6,4 +6,12 @@ export default defineConfig({
     vite: {
         plugins: [tailwindcss()],
     },
+    outDir: './event',
+    build: {
+    assetsPrefix: '/event'
+  },
 });
+
+
+
+  
